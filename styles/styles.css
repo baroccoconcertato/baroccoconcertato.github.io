@@ -22,6 +22,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* text-align: center; */
 }
 
 #sidebar.active {
@@ -75,6 +76,7 @@ body {
   background: white;
   min-height: 100vh;
   overflow-x: hidden;
+  font-family: 'Cormorant Infant', serif;
 }
 
 .separator {
@@ -132,4 +134,15 @@ p {
 
 p img {
   float: left;
+}
+
+.news {
+  width: 100%;
+  object-fit: cover;
+}
+
+h6 {
+  text-align: center;
+  color: gray;
+  font-style: italic;
 }
